@@ -1,0 +1,15 @@
+#canvas{
+    border: solid 3px;
+    border-color: rgba(128, 128, 128, 0.71);
+    background-color: rgba(211, 211, 211, 0.26);
+    margin-left: 200px;
+    margin-top: 30px;
+    /*color: rgba(250, 43, 226, 0.18);*/
+    /*color: rgba(230, 34, 237, 0.34);*/
+    /*color: rgba(209, 3, 182, 0.52);*/
+    /*color: rgba(255, 92, 220, 0.72);*/
+    /*color: rgba(255, 149, 248, 0.63);*/
+}
+#newGameButton{
+    display: none;
+}
