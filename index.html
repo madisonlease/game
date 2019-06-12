@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body onload="startGame()">
+
 <div>
     <canvas id="canvas" width="1000" height="600"></canvas>
 </div>
 
-<button id="newGameButton" onclick="newGame()">NEW GAME</button>
-<button onclick="pausePlay()">PAUSE/PLAY</button>
+<table id="bottomRow">
+    <tr>
+        <td>Score:<div id="score"></div></td>
+        <td><button class="button" onclick="pausePlay()">PAUSE/PLAY</button></td>
+        <td><button class="button" id="newGameButton" onclick="newGame()">NEW GAME</button></td>
+    </tr>
+</table>
+
+
+
 
 </body>
 </html>

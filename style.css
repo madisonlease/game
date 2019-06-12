@@ -3,7 +3,7 @@
     border-color: rgba(128, 128, 128, 0.71);
     background-color: rgba(211, 211, 211, 0.26);
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 5px;
     /*color: rgba(250, 43, 226, 0.18);*/
     /*color: rgba(230, 34, 237, 0.34);*/
     /*color: rgba(209, 3, 182, 0.52);*/
@@ -12,4 +12,30 @@
 }
 #newGameButton{
     display: none;
+}
+
+#bottomRow{
+    margin:auto;
+    margin-top:0px;
+}
+td{
+    padding:7px;
+}
+.button{
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.3s;
+    cursor: grab;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5);
+}
+.button:active{
+    transform: translateY(4px);
+    cursor: grabbing;
 }
